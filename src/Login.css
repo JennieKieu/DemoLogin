@@ -1,0 +1,141 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    display: flex;
+    height: 100vh;
+}
+
+.login-image {
+    flex: 1;
+    background: url('../public/bg.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.login-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-text p {
+    font-size: 18px;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.login-box {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.form-group label {
+    margin-top: 10px;
+}
+
+.forgot-password {
+    align-self: flex-end;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: blue;
+    text-decoration: none;
+   
+}
+
+.login-button,
+.register-button,
+.google-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover,
+.register-button:hover,
+.google-login:hover {
+    background-color: #0056b3;
+}
+
+.divider {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login img {
+    margin-right: 5px;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-up a {
+    color: blue;
+    text-decoration: none;
+}
